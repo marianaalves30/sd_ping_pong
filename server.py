@@ -1,7 +1,7 @@
 # server.py
-#!/usr/bin/python3.10                       # This is server.py file
+#!/usr/bin/python3.10                       # Server.py file
 
-import socket                               # Import socket module
+import socket                               # Import module
 
 s = socket.socket()                         # Create a socket object
 host = socket.gethostname()                 # Get local machine name
